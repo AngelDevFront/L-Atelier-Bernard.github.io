@@ -1,0 +1,31 @@
+.temoignages {
+  temoignages-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    border: 1px solid $color1;
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+  h2 {
+    color: $white;
+    margin: 20px 0 20px 0;
+  }
+
+  p {
+    color: $grey2;
+    margin: 20px 0 20px 0;
+  }
+
+  h3 {
+    color: $white;
+    margin: 20px 0 20px 0;
+  }
+  .content {
+    border: 1px solid $color1;
+  }
+  button {
+    border-radius: 50px;
+    margin: 20px 0 20px 0;
+  }
+}

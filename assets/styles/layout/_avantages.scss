@@ -1,0 +1,24 @@
+.avantages {
+  .avantages-container {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    max-width: 1100px;
+    margin: 0 auto;
+    border: 1px solid $color1;
+    color: $white;
+    @media screen and (max-width: 700px) {
+      grid-template-columns: 1fr;
+      width: 24%;
+      border: none;
+    }
+  }
+  p {
+    border-left: 1px solid $color1;
+    padding: 20px;
+    text-align: center;
+
+    @media screen and (max-width: 700px) {
+      border: none;
+    }
+  }
+}

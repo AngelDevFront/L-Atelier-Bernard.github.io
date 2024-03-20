@@ -1,0 +1,29 @@
+footer {
+  position: fixed;
+  @include alignChildren(space-between);
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px;
+  z-index: 999;
+
+  .reseaux-sociaux-container {
+    display: flex;
+    flex-direction: column;
+
+    a {
+      transition: 0.3s ease;
+
+      &:hover {
+        transform: scale(1.3);
+        background: $grey2;
+      }
+    }
+  }
+  p {
+    font-family: $font2;
+    font-size: 1rem;
+    color: $white;
+    text-transform: uppercase;
+  }
+}
